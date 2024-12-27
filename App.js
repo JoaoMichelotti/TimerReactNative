@@ -19,6 +19,7 @@ export default function App() {
 
     const interval = tempo > 0 && setInterval(() => {
       setTempo(tempo => tempo - 1);
+      //teste
     }, 1000);
 
    
